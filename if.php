@@ -39,6 +39,8 @@ if ($b == $c) {
     echo "$b is equal to $c\n";
 }
 
+
+
 // TODO: Replace `true` with the correct comparison
 if ($b !== $c) {
     echo "$b is not identical to $c\n";
