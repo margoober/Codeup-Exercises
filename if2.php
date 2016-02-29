@@ -37,7 +37,7 @@ if ($b === $c) {
 // TODO: Replace `true` with the correct comparison
 if ($b != $c) {
     echo "$b is not equal to $c\n";
-}
+} else {echo "HONK HONK\n";}
 
 // TODO: Replace `true` with the correct comparison
 if ($b !== $c) {
