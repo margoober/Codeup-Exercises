@@ -17,4 +17,6 @@ function game() {
 		echo "nope!" . PHP_EOL;
 	}
 }
+do {
 game();
+} while ($a);
