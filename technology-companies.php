@@ -1,47 +1,60 @@
 <?php
 
-$companies = [
-    'Sun Microsystems' => [
-        'Vinod Khosla',
-        'Bill Joy',
-        'Andy Bechtolsheim',
-        'Scott McNealy'
+$array = [
+    'Sump Mumpcon Styssens' => [
+        'Vine Kirkman',
+        'Bilb Jobbo',
+        'Ando Bestoffriends',
+        'Scoth Macanons'
     ],
-    'Silicon Graphics' => [
-        'Jim Clark',
-        'Ed McCracken'
+    'Sliptip Grimpsticks' => [
+        'Jump Clump Clark',
+        'Ed Ped McClark Dark Park'
     ],
-    'Cray' => [
-        'William Norris',
-        'Seymour Cray'
+    'Cramps' => [
+        'Will Nill Nor Por',
+        'Simbles Crimbles'
     ],
-    'NeXT' => [
-        'Steve Jobs',
-        'Avie Tevanian',
-        'Joanna Hoffman',
-        'Bud Tribble',
-        'Susan Kare'
+    'Neps Peps' => [
+        'Ston Jon Tobs',
+        'Avril T\'vine',
+        'Jobble Hoffle Munts',
+        'Bub Trubble Bubble',
+        'Sussen Karuse Bruiser'
     ],
-    'Acorn Computers' => [
-        'Steve Furber',
-        'Sophie Wilson',
-        'Hermann Hauser',
-        'Jim Mitchell'
+    'Acorn Dorn' => [
+        'Stob Furber Clurb Bum',
+        'Sop Wopple Wilson',
+        'Himper Hauser Hiss',
+        'Jitch Stich Mitchle'
     ],
-    'MIPS Technologies' => [
-        'Skip Stritter',
-        'John L. Hennessy'
+    'Mr. Mip\'s Tocologiss' => [
+        'Skipple Strittle Sitter',
+        'Juck Luck Hentown'
     ],
-    'Commodore' => [
+    'Comdodo' => [
         'Yash Terakura',
-        'Bob Russell',
-        'Bob Yannes',
+        'Bobe Ramsam Dipples',
+        'Bobe Yantis',
         'David A. Ziembicki',
-        'Jay Miner'
+        'Jay Mints Tintles'
     ],
-    'Be Inc' => [
-        'Steve Sakoman',
-        'Jean-Louis Gassée'
+    'Binc' => [
+        'Stens Sack Mackleman',
+        'Jan-Lob Grasshop Top'
     ]
 ];
-print_r($companies); 
+foreach ($array as $companyName => $arrayOfPeople) {
+    sort($arrayOfPeople);
+    $array[$companyName] = $arrayOfPeople;
+}
+ksort($array);
+arsort($array);
+print_r($array);
+
+
+$languages = ["html", "css", "helltongue"];
+foreach($languages as $key => $language) {
+    $languages[$key] = strtoupper($language);
+}
+var_dump($languages);
