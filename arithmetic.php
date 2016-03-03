@@ -53,3 +53,25 @@ echo subtract(2, 3) . PHP_EOL;
 echo multiply(2, 5) . PHP_EOL;
 echo divide(2, "b") . PHP_EOL;
 echo mod(21, 3) . PHP_EOL;
+=======
+function add($a, $b)
+{
+    return $a + $b;
+}
+
+function subtract($a, $b)
+{
+    // Add code here
+}
+
+function multiply($a, $b)
+{
+    // Add code here
+}
+
+function divide($a, $b)
+{
+    // Add code here
+}
+
+// Add code to test your functions here
