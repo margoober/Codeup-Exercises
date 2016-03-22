@@ -1,7 +1,6 @@
 <?php
 
-function logMessage($logLevel, $message)
-{
+function logMessage($logLevel, $message) {
     // todo - complete this function
     //log to file
     $filename = "newlog-" . date("d-m-Y") . ".log";
