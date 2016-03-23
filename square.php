@@ -8,12 +8,8 @@ class Square extends Rectangle
 		parent::__construct($side, $side);
 	}
 
-	public function perimeter () {
-			return ($this->length * 4);
-	}
-
-	public function area () {
-		return $this->length * $this->length;
+	public function squarea() {
+		return $this->area();
 	}
 
 }

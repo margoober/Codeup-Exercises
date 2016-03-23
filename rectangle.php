@@ -1,8 +1,8 @@
 <?php
 class Rectangle
 {
-	public $length;
-	public $width;
+	private $length;
+	private $width;
 
 	public function __construct($length, $width) {
 		$this->length = $length;
@@ -14,9 +14,15 @@ class Rectangle
 	}
 
 	public function perimeter () {
-		if ($this->length == $this->width) {
 			return ($this->length * 2) + ($this->width * 2);
 		}
+
+	public function displaySides() {
+		return $this->length . " by " . $this->width;
+	}
+
+	public function lengthGetter() {
+		return $this->length;
 	}
 
 }

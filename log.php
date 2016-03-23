@@ -1,27 +1,20 @@
 <?PHP
-class Log
-{
+
+class Log {
+
 	public $filename;
 
-	public function __construct($prefix = 'log-') {
-		$this->date
-	}
-
-	function logMessage()
-	{
+	function logMessage($logLevel, $message) {
 		$date = date('y-m-d');
 		$filename = $prefix . $date . ".log";
 		$handle = fopen($filename, a);
-
 	}
-	function info() {
 
+	function info (){
 	}
-	function error() {
 
+	function error(){
+		
 	}
+
 }
-$test = new Log();
-$test->filename = "logger.php";
-print_r($test);
-?>
