@@ -27,3 +27,29 @@ echo $square2->squarea() . PHP_EOL;
 
 
 echo "Result of getter function lengthGetter(): " . $rect1->lengthGetter() . PHP_EOL;
+echo PHP_EOL . "___MAGIC METHODS_____________________________________________" . PHP_EOL . PHP_EOL;
+
+$magicSquare = new Square(10);
+$magicSquare->dingaling = 'dorp';
+var_dump($magicSquare);
+
+echo PHP_EOL . "___GET()_____________________________________________" . PHP_EOL . PHP_EOL;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+echo $magicSquare->dingaling . PHP_EOL;
+
+var_dump($magicSquare->dingaling);
