@@ -8,4 +8,4 @@ class User extends Model
 
 echo User::getTableName();
 
-throw new Exception("here comes some bullshit");
+throw new Exception("here comes some bat crud");

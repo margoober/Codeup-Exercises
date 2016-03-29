@@ -1,5 +1,19 @@
 <?php
 
+//MVC -- Model View Controller
+/*
+variables abstract value and name
+loops abstract repetition
+
+function abstract processes
+
+objects abstract state and behavior
+model abstracts data and behavior w/ db table
+- CRUD operations Create, Read, Update, Delete
+- Define relationships w/ other models
+- How we represent db tables in our application
+*/
+
 class Model
 {
 	private $attributes = [];
